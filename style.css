@@ -1,0 +1,60 @@
+body {
+  overflow: hidden;
+}
+
+.parallax {
+  width: 100vw;
+  height: 100vh;
+  transform: scale(1.1);
+}
+.parallax-layer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.parallax-layer__1 {
+  background-image: url('img/layer_1.png');
+}
+.parallax-layer__2 {
+  background-image: url('img/layer_2.png');
+}
+.parallax-layer__3 {
+  background-image: url('img/layer_3.png');
+}
+.parallax-layer__4 {
+  background-image: url('img/layer_4.png');
+}
+.parallax-layer__5 {
+  background-image: url('img/layer_5.png');
+}
+.parallax-layer__6 {
+  background-image: url('img/layer_6.png');
+}
+.parallax-layer__7 {
+  background-image: url('img/layer_7.png');
+}
+.parallax-layer__8 {
+  background-image: url('img/layer_8.png');
+}
+.parallax-layer__9 {
+  background-image: url('img/layer_9.png');
+}
+
+#colors {
+	position: fixed;
+	animation-name: kolory;
+	animation-duration: 80s;
+	animation-iteration-count: infinite;
+	width: 100vw;
+	height: 100vw;
+	opacity: 0.08;}
+	
+@keyframes kolory {
+	0% {background-color:#0000FF;}
+	20% {background-color:#660099}
+	40% {background-color:#FF0000;}
+	60% {background-color:#FF6600;}
+	80% {background-color:#00FFFF;}
+	100% {background-color:#0000FF;}
+	}
